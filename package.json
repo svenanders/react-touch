@@ -1,25 +1,52 @@
 {
   "name": "react-touch",
-  "version": "0.0.2",
-  "description": "Get started with building React apps",
+  "version": "0.0.6",
+  "description": "React component library for building inertial touch applications.",
+  "main": "lib/ReactTouch.js",
+  "peerDependencies": {
+    "react": "~0.9"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jsxc": "~0.1.4"
+  },
   "repository": {
     "type": "git",
-    "url": "git@github.com:svenanders/react-touch.gitt"
-  },
-  "dependencies": {
-    "react-touch": "~0.0.1",
-    "react": "~0.11.1"
-  },
-  "devDependencies": {
-    "jsx-loader": "petehunt/jsx-loader",
-    "webpack": "~0.11.0",
-    "url-loader": "~0.5.1",
-    "css-loader": "~0.6.2",
-    "style-loader": "~0.6.0"
+    "url": "git@github.com:svenanders/react-touch.git"
   },
   "scripts": {
-    "start": "webpack --watch --debug src/main.js build/main.js"
+    "start": "jsxc --watch src/ lib/",
+    "build": "jsxc src/ lib/"
   },
-  "author": "Pete Hunt",
-  "license": "Apache 2"
+  "files": [
+    "lib/"
+  ],
+  "author": {
+    "name": "Pete Hunt"
+  },
+  "license": "Apache 2",
+  "bugs": {
+    "url": "https://github.com/svenanders/react-touch-lib/issues"
+  },
+  "homepage": "https://github.com/svenanders/react-touch-lib",
+  "_id": "react-touch@0.0.6",
+  "dist": {
+    "shasum": "64c82fd9b2b2a083ce00657d81c7d4eac8929565",
+    "tarball": "http://registry.npmjs.org/react-touch/-/react-touch-0.0.6.tgz"
+  },
+  "_from": "react-touch@~0.0.1",
+  "_npmVersion": "1.4.3",
+  "_npmUser": {
+    "name": "floydophone",
+    "email": "floydophone@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "floydophone",
+      "email": "floydophone@gmail.com"
+    }
+  ],
+  "directories": {},
+  "_shasum": "64c82fd9b2b2a083ce00657d81c7d4eac8929565",
+  "_resolved": "https://registry.npmjs.org/react-touch/-/react-touch-0.0.6.tgz"
 }
