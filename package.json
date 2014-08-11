@@ -2,7 +2,10 @@
   "name": "react-touch",
   "version": "0.0.2",
   "description": "Get started with building React apps",
-  "repository": "https://github.com/svenanders/react-touch",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:svenanders/react-touch.gitt"
+  }
   "dependencies": {
     "react-touch": "~0.0.1",
     "react": "~0.11.1"
