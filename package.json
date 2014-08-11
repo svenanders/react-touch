@@ -5,7 +5,7 @@
   "repository": {
     "type": "git",
     "url": "git@github.com:svenanders/react-touch.gitt"
-  }
+  },
   "dependencies": {
     "react-touch": "~0.0.1",
     "react": "~0.11.1"
